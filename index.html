@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Joe's travel</title>
+  <!-- bootstrap stylesheet -->
+  <link rel="stylesheet" href="lib/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <!-- custom stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                Initialize our app
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+<body ng-app="BookApp">
+  <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+               Controller
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+  <div ng-controller="bookCtrl">
+    <h1>{{welcome}}</h1>
+  </div>
+  <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+               Script Tags
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+  <script src="lib/node_modules/angular/angular.min.js"></script>
+  <script src="lib/node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="lib/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="app/app.js"></script>
+  <script src="app/controllers/bookCtrl.js"></script>
+</body>
+
+</html>
