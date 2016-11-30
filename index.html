@@ -21,7 +21,10 @@
   <div ng-controller="bookCtrl">
     <h1>{{welcome}}</h1>
     <div ng-repeat="book in books">
-      <div>{{books}}</div>
+      <div>Type: {{book.type}}</div>
+      <div>Title: {{book.title}}</div>
+      <div>Price: {{book.price}}</div>
+      <br>
     </div>
   </div>
   <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
